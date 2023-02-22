@@ -1,0 +1,35 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .header {
+    text-align: center;
+    background: lightyellow;
+    padding: 3px;
+  }
+  .row {
+    overflow: auto;
+    margin: 0 auto;
+    background: lightgreen;
+  }
+  .leftcolumn { 
+    margin-top: 0;
+    float: left;
+    width: 70%;
+    padding-left: 12px;
+    box-sizing: border-box; 
+    background: orange;
+  }
+  .rightcolumn {
+    margin-top: 0;
+    margin-left: 70%;
+    padding-left: 12px;
+    box-sizing: border-box; 
+  }
+  /* Footer */
+  .footer {
+    clear: left;
+    text-align: center;
+    background: #cccccc;
+    padding: 10px;
+  }
